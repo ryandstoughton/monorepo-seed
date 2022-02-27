@@ -3,6 +3,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log
 
 # Runtime data
 *.pid
@@ -67,5 +68,7 @@ common/autoinstallers/*/.npmrc
 # Heft
 .heft
 
-# Build dirs
+# Build files and dirs 
 **/dist
+tsconfig.tsbuildinfo
+interfaces.build.log

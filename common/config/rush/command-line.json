@@ -11,6 +11,19 @@
    * "rush my-global-command --help".
    */
   "commands": [
+    {
+      "commandKind": "bulk",
+      "name": "build:watch",
+      "summary": "Runs the defined `build:watch` command in all packages",
+      "safeForSimultaneousRushProcesses": false,
+      "enableParallelism": true,
+      "ignoreDependencyOrder": false,
+      "ignoreMissingScript": true,
+      "allowWarningsInSuccessfulBuild": true,
+      "incremental": true,
+      "disableBuildCache": true,
+      "watchForChanges": true
+    }
     // {
     //   /**
     //    * (Required) Determines the type of custom command.
