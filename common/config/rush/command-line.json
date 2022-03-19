@@ -15,20 +15,13 @@
       "watchForChanges": true
     },
     {
-      "name": "prettier",
+      "name": "lint-staged",
       "commandKind": "global",
-      "summary": "Used by the pre-commit Git hook. This command invokes Prettier to reformat staged changes.",
+      "summary": "Used by the pre-commit Git hook. Invokes ESLint+Prettier to lint and reformat staged changes.",
       "safeForSimultaneousRushProcesses": true,
-      "autoinstallerName": "rush-prettier",
-      "shellCommand": "pretty-quick --staged"
+      "shellCommand": "lint-staged",
+      "autoinstallerName": "rush-lint-staged"
     }
-    // {
-    //   "name": "lint",
-    //   "commandKind": "global",
-    //   "summary": "Used by the pre-commit Git hook. Invokes ESLint+Prettier to lint and reformat staged changes.",
-    //   "safeForSimultaneousRushProcesses": true,
-    //   "autoinstallerName": "rush-lint-staged"
-    // }
   ],
   "parameters": []
 }
