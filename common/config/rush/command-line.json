@@ -2,9 +2,9 @@
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/command-line.schema.json",
   "commands": [
     {
-      "name": "build:watch",
+      "name": "rush:build:watch",
       "commandKind": "bulk",
-      "summary": "Runs the defined `build:watch` command in all packages",
+      "summary": "Runs the defined `rush:build:watch` command in all packages",
       "safeForSimultaneousRushProcesses": false,
       "enableParallelism": true,
       "ignoreDependencyOrder": false,
