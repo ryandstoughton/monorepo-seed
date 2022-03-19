@@ -76,6 +76,3 @@ tsconfig.tsbuildinfo
 interfaces.build.log
 
 ###################################################################
-
-# Markdown
-*.md
